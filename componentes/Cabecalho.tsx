@@ -1,4 +1,5 @@
 import { useState } from "react"
+import Image from 'next/image'
 import ItemCabecalhoDetalhe from "./ItemCabecalhoDetalhe"
 
 const Cabecalho = () => {
@@ -8,8 +9,8 @@ const Cabecalho = () => {
     <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-5 sm:px-6 sm:py-4 lg:px-8 md:justify-start md:space-x-10">
       <div>
         <a href="#" className="flex">
-          <span className="sr-only">Workflow</span>
-          <img className="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="" />
+          <span className="sr-only">Regulus</span>
+          <img className="h-8 w-auto sm:h-10" src="./logo_junta.png" alt="" />
         </a>
       </div>
       <div className="-mr-2 -my-2 md:hidden">
@@ -116,8 +117,8 @@ const Cabecalho = () => {
           <a href="#" className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100">
             {/* Heroicon name: outline/external-link */}
             <svg className="flex-shrink-0 h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-</svg>
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
             <span className="ml-3">Ver todos livros</span>
           </a>
         </div>
