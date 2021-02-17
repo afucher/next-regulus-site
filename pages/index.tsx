@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>Regulus | Escola e Livraria especializada de Astrologia</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Cabecalho />
